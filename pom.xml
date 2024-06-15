@@ -207,5 +207,16 @@
  		</plugin>
 		
         </plugins>
-    </build>
+    </build> 
+ <disributionManagement> 
+ <repository>	
+      <id>maven-releases</id>
+      <url>http://16.171.37.217:8081/repository/maven-releases/</url>
+ </repository>
+ <snapshotRepository>
+     <id>maven-snapshots</id>
+     <url>http://16.171.37.217:8081/repository/maven-releases/</url>	
+ </snapshotRepository>
+ </distributionManagement>
 </project>
+
